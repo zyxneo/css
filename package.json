@@ -1,0 +1,38 @@
+{
+  "name": "css",
+  "version": "1.0.0",
+  "description": "css experiments",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zyxneo/css.git"
+  },
+  "keywords": [
+    "css",
+    "animation",
+    "experiments"
+  ],
+  "author": "zyxneo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zyxneo/css/issues"
+  },
+  "homepage": "https://github.com/zyxneo/css#readme",
+  "devDependencies": {
+    "autoprefixer": "^6.5.3",
+    "grunt": "^1.0.1",
+    "grunt-contrib-clean": "^1.0.0",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-newer": "^1.2.0",
+    "grunt-postcss": "^0.8.0",
+    "grunt-sass": "^1.2.1",
+    "load-grunt-config": "^0.19.2",
+    "load-grunt-tasks": "^3.5.2",
+    "postcss-cli": "^2.6.0",
+    "postcss-flexbugs-fixes": "^2.0.0"
+  }
+}

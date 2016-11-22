@@ -1,0 +1,53 @@
+/* line 2, C:/Dropbox/www/css/source/styles/style.scss */
+.t1 {
+  width: 100px;
+  height: 100px;
+  border: 10px solid lightpink;
+  outline: 10px solid mediumorchid;
+  background: -webkit-gradient(linear, left bottom, left top, from(#00ffbd), to(#ff00e5));
+  background: -webkit-linear-gradient(bottom, #00ffbd, #ff00e5);
+  background: -o-linear-gradient(bottom, #00ffbd, #ff00e5);
+  background: linear-gradient(0deg, #00ffbd, #ff00e5);
+  -webkit-background-size: 400% 400%;
+          background-size: 400% 400%;
+  -webkit-animation: AnimationName 3s ease infinite;
+       -o-animation: AnimationName 3s ease infinite;
+          animation: AnimationName 3s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+  0% {
+    background-position: 50% 0%;
+  }
+  50% {
+    background-position: 50% 100%;
+  }
+  100% {
+    background-position: 50% 0%;
+  }
+}
+
+@-o-keyframes AnimationName {
+  0% {
+    background-position: 50% 0%;
+  }
+  50% {
+    background-position: 50% 100%;
+  }
+  100% {
+    background-position: 50% 0%;
+  }
+}
+
+@keyframes AnimationName {
+  0% {
+    background-position: 50% 0%;
+  }
+  50% {
+    background-position: 50% 100%;
+  }
+  100% {
+    background-position: 50% 0%;
+  }
+}
+/*# sourceMappingURL=style.css.map */

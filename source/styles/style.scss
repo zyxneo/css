@@ -1,0 +1,17 @@
+
+.t1 {
+  width: 100px;
+  height: 100px;
+  border: 10px solid lightpink;
+  outline: 10px solid mediumorchid;
+
+  background: linear-gradient(0deg, #00ffbd, #ff00e5);
+  background-size: 400% 400%;
+  animation: AnimationName 3s ease infinite;
+}
+
+@keyframes AnimationName {
+  0%{background-position:50% 0%}
+  50%{background-position:50% 100%}
+  100%{background-position:50% 0%}
+}
