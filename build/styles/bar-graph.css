@@ -1,0 +1,29 @@
+/* line 1, K:/github/css/source/styles/bar-graph.scss */
+.bar-graph {
+  width: 500px;
+  height: 200px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  background: lightsteelblue;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+/* line 13, K:/github/css/source/styles/bar-graph.scss */
+.bar-graph__bar {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 0 auto;
+      -ms-flex: 1 0 auto;
+          flex: 1 0 auto;
+}
+/*# sourceMappingURL=bar-graph.css.map */

@@ -1,0 +1,16 @@
+.bar-graph {
+  width: 500px;
+  height: 200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+
+  background: lightsteelblue;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+
+  &__bar {
+    flex: 1 0 auto;
+  }
+}

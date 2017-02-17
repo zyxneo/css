@@ -1,0 +1,35 @@
+.ghost-light {
+  width: 100px;
+  height: 100px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  transform-style: preserve-3d;
+  bottom: 0;
+  transform: perspective(135px) rotateX(-235deg) translate3d(0%, 100%, 0px);
+  position: absolute;
+  -webkit-mask-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,1), rgba(0,0,0,0));
+}
+
+.ghost-light::before,
+.ghost-light::after {
+  position: absolute;
+  content: "";
+  display: block;
+  width: 50%;
+  height: 100px;
+  left: 50%;
+  background: url("../../images/ghost-light.png");
+  animation: animatedBackground 10s linear infinite;
+  -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
+  z-index: 1;
+}
+
+.ghost-light::after {
+  transform: scaleX(-1) translateX(100%);
+}
+
+@keyframes animatedBackground {
+	from { background-position: 0 100%; }
+	to { background-position: 0 0; }
+}

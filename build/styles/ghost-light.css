@@ -1,0 +1,68 @@
+/* line 1, K:/github/css/source/styles/ghost-light.scss */
+.ghost-light {
+  width: 100px;
+  height: 100px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  bottom: 0;
+  -webkit-transform: perspective(135px) rotateX(-235deg) translate3d(0%, 100%, 0px);
+          transform: perspective(135px) rotateX(-235deg) translate3d(0%, 100%, 0px);
+  position: absolute;
+  -webkit-mask-image: -webkit-linear-gradient(left, transparent, black, transparent);
+}
+
+/* line 14, K:/github/css/source/styles/ghost-light.scss */
+.ghost-light::before,
+.ghost-light::after {
+  position: absolute;
+  content: "";
+  display: block;
+  width: 50%;
+  height: 100px;
+  left: 50%;
+  background: url("../../images/ghost-light.png");
+  -webkit-animation: animatedBackground 10s linear infinite;
+       -o-animation: animatedBackground 10s linear infinite;
+          animation: animatedBackground 10s linear infinite;
+  -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(black), to(transparent));
+  z-index: 1;
+}
+
+/* line 28, K:/github/css/source/styles/ghost-light.scss */
+.ghost-light::after {
+  -webkit-transform: scaleX(-1) translateX(100%);
+      -ms-transform: scaleX(-1) translateX(100%);
+       -o-transform: scaleX(-1) translateX(100%);
+          transform: scaleX(-1) translateX(100%);
+}
+
+@-webkit-keyframes animatedBackground {
+  from {
+    background-position: 0 100%;
+  }
+  to {
+    background-position: 0 0;
+  }
+}
+
+@-o-keyframes animatedBackground {
+  from {
+    background-position: 0 100%;
+  }
+  to {
+    background-position: 0 0;
+  }
+}
+
+@keyframes animatedBackground {
+  from {
+    background-position: 0 100%;
+  }
+  to {
+    background-position: 0 0;
+  }
+}
+/*# sourceMappingURL=ghost-light.css.map */
