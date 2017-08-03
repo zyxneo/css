@@ -1,4 +1,4 @@
-/* line 1, K:/github/css/source/styles/bar-graph.scss */
+/* line 1, D:/_www/github/css/source/styles/bar-graph.scss */
 .bar-graph {
   width: 500px;
   height: 200px;
@@ -19,7 +19,7 @@
   list-style: none;
 }
 
-/* line 13, K:/github/css/source/styles/bar-graph.scss */
+/* line 13, D:/_www/github/css/source/styles/bar-graph.scss */
 .bar-graph__bar {
   -webkit-box-flex: 1;
   -webkit-flex: 1 0 auto;

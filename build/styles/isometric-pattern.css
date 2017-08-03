@@ -1,4 +1,4 @@
-/* line 5, C:/Dropbox/www/css/source/styles/isometric-pattern.scss */
+/* line 5, D:/_www/github/css/source/styles/isometric-pattern.scss */
 .isometric-pattern {
   position: relative;
   background: lavenderblush;
@@ -17,7 +17,7 @@
           transform: rotate(210deg) skew(-30deg) scaleY(0.864);
 }
 
-/* line 17, C:/Dropbox/www/css/source/styles/isometric-pattern.scss */
+/* line 17, D:/_www/github/css/source/styles/isometric-pattern.scss */
 .isometric-pattern-item {
   position: relative;
   left: -30%;
@@ -26,7 +26,7 @@
   background: #f8d666;
 }
 
-/* line 26, C:/Dropbox/www/css/source/styles/isometric-pattern.scss */
+/* line 26, D:/_www/github/css/source/styles/isometric-pattern.scss */
 .isometric-pattern-item::before, .isometric-pattern-item::after {
   position: absolute;
   content: "";
@@ -44,7 +44,7 @@
   z-index: -1;
 }
 
-/* line 38, C:/Dropbox/www/css/source/styles/isometric-pattern.scss */
+/* line 38, D:/_www/github/css/source/styles/isometric-pattern.scss */
 .isometric-pattern-item::after {
   background: #deaa3b;
   -webkit-transform: rotate(90deg) skew(-45deg) translate(0) scaleY(1);
@@ -54,19 +54,19 @@
   z-index: -2;
 }
 
-/* line 45, C:/Dropbox/www/css/source/styles/isometric-pattern.scss */
+/* line 45, D:/_www/github/css/source/styles/isometric-pattern.scss */
 .isometric-pattern-item {
   -webkit-box-shadow: 1em 0em 0 #f8d666, 2em 0em 0 #f8d666, 3em 0em 0 #f8d666, 3em 1em 0 #f8d666, 3em 2em 0 #f8d666, 3em 3em 0 #f8d666, -3em -1em 0 #f8d666, -3em -2em 0 #f8d666, -2em -3em 0 #f8d666, -1em -3em 0 #f8d666, 0em 1em 0 #f8d666, 0em 2em 0 #f8d666, 0em 3em 0 #f8d666, 1em 3em 0 #f8d666, 2em 3em 0 #f8d666;
           box-shadow: 1em 0em 0 #f8d666, 2em 0em 0 #f8d666, 3em 0em 0 #f8d666, 3em 1em 0 #f8d666, 3em 2em 0 #f8d666, 3em 3em 0 #f8d666, -3em -1em 0 #f8d666, -3em -2em 0 #f8d666, -2em -3em 0 #f8d666, -1em -3em 0 #f8d666, 0em 1em 0 #f8d666, 0em 2em 0 #f8d666, 0em 3em 0 #f8d666, 1em 3em 0 #f8d666, 2em 3em 0 #f8d666;
 }
 
-/* line 69, C:/Dropbox/www/css/source/styles/isometric-pattern.scss */
+/* line 69, D:/_www/github/css/source/styles/isometric-pattern.scss */
 .isometric-pattern-item::before {
   -webkit-box-shadow: 0em 1em 0 #ecc040, 0em 2em 0 #ecc040, 0em 3em 0 #ecc040, -1em 3em 0 #ecc040, -2em 3em 0 #ecc040, -3em 3em 0 #ecc040, -3em 2em 0 #ecc040, -3em 1em 0 #ecc040, 3em -2em 0 #ecc040, 3em -1em 0 #ecc040, 1em -3em 0 #ecc040, 2em -3em 0 #ecc040, -1em 0em 0 #ecc040, -2em 0em 0 #ecc040, -3em 0em 0 #ecc040;
           box-shadow: 0em 1em 0 #ecc040, 0em 2em 0 #ecc040, 0em 3em 0 #ecc040, -1em 3em 0 #ecc040, -2em 3em 0 #ecc040, -3em 3em 0 #ecc040, -3em 2em 0 #ecc040, -3em 1em 0 #ecc040, 3em -2em 0 #ecc040, 3em -1em 0 #ecc040, 1em -3em 0 #ecc040, 2em -3em 0 #ecc040, -1em 0em 0 #ecc040, -2em 0em 0 #ecc040, -3em 0em 0 #ecc040;
 }
 
-/* line 94, C:/Dropbox/www/css/source/styles/isometric-pattern.scss */
+/* line 94, D:/_www/github/css/source/styles/isometric-pattern.scss */
 .isometric-pattern-item::after {
   -webkit-box-shadow: 0em 1em 0 #deaa3b, 0em 2em 0 #deaa3b, 0em 3em 0 #deaa3b, 1em 3em 0 #deaa3b, 2em 3em 0 #deaa3b, 3em 3em 0 #deaa3b, 3em 2em 0 #deaa3b, 3em 1em 0 #deaa3b, -3em -2em 0 #deaa3b, -3em -1em 0 #deaa3b, -1em -3em 0 #deaa3b, -2em -3em 0 #deaa3b, 1em 0em 0 #deaa3b, 2em 0em 0 #deaa3b, 3em 0em 0 #deaa3b;
           box-shadow: 0em 1em 0 #deaa3b, 0em 2em 0 #deaa3b, 0em 3em 0 #deaa3b, 1em 3em 0 #deaa3b, 2em 3em 0 #deaa3b, 3em 3em 0 #deaa3b, 3em 2em 0 #deaa3b, 3em 1em 0 #deaa3b, -3em -2em 0 #deaa3b, -3em -1em 0 #deaa3b, -1em -3em 0 #deaa3b, -2em -3em 0 #deaa3b, 1em 0em 0 #deaa3b, 2em 0em 0 #deaa3b, 3em 0em 0 #deaa3b;

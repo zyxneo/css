@@ -1,4 +1,9 @@
-/* line 1, K:/github/css/source/styles/ghost-light.scss */
+/* line 1, D:/_www/github/css/source/styles/ghost-light.scss */
+.ghost-light-bg {
+  background: black;
+}
+
+/* line 5, D:/_www/github/css/source/styles/ghost-light.scss */
 .ghost-light {
   width: 100px;
   height: 100px;
@@ -8,13 +13,13 @@
   -webkit-transform-style: preserve-3d;
           transform-style: preserve-3d;
   bottom: 0;
-  -webkit-transform: perspective(135px) rotateX(-235deg) translate3d(0%, 100%, 0px);
-          transform: perspective(135px) rotateX(-235deg) translate3d(0%, 100%, 0px);
+  -webkit-transform: perspective(126px) rotateX(-230deg) translate3d(0%, 60%, -50px);
+          transform: perspective(126px) rotateX(-230deg) translate3d(0%, 60%, -50px);
   position: absolute;
   -webkit-mask-image: -webkit-linear-gradient(left, transparent, black, transparent);
 }
 
-/* line 14, K:/github/css/source/styles/ghost-light.scss */
+/* line 18, D:/_www/github/css/source/styles/ghost-light.scss */
 .ghost-light::before,
 .ghost-light::after {
   position: absolute;
@@ -23,15 +28,15 @@
   width: 50%;
   height: 100px;
   left: 50%;
-  background: url("../../images/ghost-light.png");
-  -webkit-animation: animatedBackground 10s linear infinite;
-       -o-animation: animatedBackground 10s linear infinite;
-          animation: animatedBackground 10s linear infinite;
+  background: url("../../images/ghost-light.png") repeat 0 0;
+  -webkit-animation: animatedBackground 30s linear infinite;
+       -o-animation: animatedBackground 30s linear infinite;
+          animation: animatedBackground 30s linear infinite;
   -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(black), to(transparent));
   z-index: 1;
 }
 
-/* line 28, K:/github/css/source/styles/ghost-light.scss */
+/* line 32, D:/_www/github/css/source/styles/ghost-light.scss */
 .ghost-light::after {
   -webkit-transform: scaleX(-1) translateX(100%);
       -ms-transform: scaleX(-1) translateX(100%);
@@ -41,7 +46,7 @@
 
 @-webkit-keyframes animatedBackground {
   from {
-    background-position: 0 100%;
+    background-position: 0 -1000px;
   }
   to {
     background-position: 0 0;
@@ -50,7 +55,7 @@
 
 @-o-keyframes animatedBackground {
   from {
-    background-position: 0 100%;
+    background-position: 0 -1000px;
   }
   to {
     background-position: 0 0;
@@ -59,7 +64,7 @@
 
 @keyframes animatedBackground {
   from {
-    background-position: 0 100%;
+    background-position: 0 -1000px;
   }
   to {
     background-position: 0 0;

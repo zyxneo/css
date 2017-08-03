@@ -1,3 +1,7 @@
+.ghost-light-bg {
+  background: black;
+}
+
 .ghost-light {
   width: 100px;
   height: 100px;
@@ -6,7 +10,7 @@
   margin: auto;
   transform-style: preserve-3d;
   bottom: 0;
-  transform: perspective(135px) rotateX(-235deg) translate3d(0%, 100%, 0px);
+  transform: perspective(126px) rotateX(-230deg) translate3d(0%, 60%, -50px);
   position: absolute;
   -webkit-mask-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,1), rgba(0,0,0,0));
 }
@@ -19,8 +23,8 @@
   width: 50%;
   height: 100px;
   left: 50%;
-  background: url("../../images/ghost-light.png");
-  animation: animatedBackground 10s linear infinite;
+  background: url("../../images/ghost-light.png") repeat 0 0;
+  animation: animatedBackground 30s linear infinite;
   -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
   z-index: 1;
 }
@@ -30,6 +34,6 @@
 }
 
 @keyframes animatedBackground {
-	from { background-position: 0 100%; }
+	from { background-position: 0 -1000px; }
 	to { background-position: 0 0; }
 }
