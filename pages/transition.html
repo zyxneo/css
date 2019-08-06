@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>transition</title>
+  <link rel="stylesheet" href="../build/styles/transition.css">
+</head>
+
+<body>
+  <div class="transition">
+    <button onclick="controlTransition()">Change class</button>
+    <div id="fade">transition</div>
+  </div>
+
+  <script type="text/javascript">
+    function controlTransition() {
+      document.getElementById('fade').classList.toggle("in")
+    }
+  </script>
+</body>
+
+</html>
